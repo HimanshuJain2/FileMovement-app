@@ -1,0 +1,67 @@
+{
+    "name": "file-request-portal",
+    "version": "0.1.0",
+    "private": true,
+    "homepage": ".",
+    "dependencies": {
+        "@chakra-ui/icons": "^2.1.0",
+        "@chakra-ui/react": "^2.8.0",
+        "@emotion/react": "^11.11.1",
+        "@emotion/styled": "^11.11.0",
+        "@fontsource/raleway": "^5.0.8",
+        "@fontsource/roboto": "^5.0.8",
+        "@tanstack/react-table": "^8.9.3",
+        "@testing-library/jest-dom": "^5.14.1",
+        "@testing-library/react": "^13.0.0",
+        "@testing-library/user-event": "^13.2.1",
+        "@types/jest": "^27.0.1",
+        "@types/node": "^16.7.13",
+        "@types/react": "^18.0.0",
+        "@types/react-dom": "^18.0.0",
+        "axios": "^1.4.0",
+        "chakra-react-select": "^4.7.0",
+        "cross-env": "^7.0.3",
+        "file-saver": "^2.0.5",
+        "firebase": "^10.1.0",
+        "framer-motion": "^10.15.1",
+        "i18next": "^23.4.6",
+        "moment": "^2.30.1",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-hook-form": "^7.45.4",
+        "react-i18next": "13.0.0",
+        "react-icons": "^4.10.1",
+        "react-router-dom": "^6.14.2",
+        "react-scripts": "5.0.1",
+        "typescript": "^4.4.2",
+        "web-vitals": "^2.1.0"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "cross-env GENERATE_SOURCEMAP=false CI=false react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "devDependencies": {
+        "@types/file-saver": "^2.0.5",
+        "prettier": "^3.0.1"
+    }
+}
